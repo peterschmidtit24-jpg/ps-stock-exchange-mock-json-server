@@ -29,3 +29,9 @@ server.listen(PORT, () => {
 //    - Include an "id" property for each item; string IDs are preferred.
 //    - Model relations with singular property names ending in "Id", e.g. "recipeId"
 // 3. Start the server with `npm start` or `npm run dev`
+
+// if its pointing to the old origin of the biolerplate server ############
+// git remote set-url origin https://github.com/peterschmidtit24-jpg/p2-stock-exchange.git
+// That updates the origin remote from the old boilerplate repo to your GitHub repo.
+// Then I pushed your existing commit with:
+// git push -u origin main
