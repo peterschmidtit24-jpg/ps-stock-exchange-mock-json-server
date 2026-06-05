@@ -1,8 +1,73 @@
+
 {
-  "COLLECTION_NAME_HERE": [
+  "companies": [
     {
-      "id": "1234",
-      "KEY_HERE": "VALUE_HERE"
+      "id": "ABCD",
+      "name": "Apple Inc.",
+      "location": "USA",
+      "lastRevenue": 250000000,
+      "lastRevenueDate": "2024-05-31",
+      "lastEarnings": 50000000,
+      "lastEarningsDate": "2024-05-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 5,
+        "sell": 2
+      }
+    },
+    {
+      "id": "BCDE",
+      "name": "Tesla Inc.", 
+      "location": "USA",
+      "lastRevenue": 300000000,
+      "lastRevenueDate": "2024-05-31",
+      "lastEarnings": 60000000,
+      "lastEarningsDate": "2024-05-31",
+      "analystRatings": {
+        "buy": 15,
+        "hold": 3,
+        "sell": 1
+      }
+    }
+  ],
+  "stocks": [
+    {
+      "id": "AAPL",
+      "companyId": "ABCD",
+      "currentPrice": 150.00,
+      "priceChange": 2.50,
+      "priceChangePercent": 1.69,
+      "volume": 1000000,
+      "marketCap": 2500000000000
+    },
+    {
+      "id": "TSLA",
+      "companyId": "BCDE",
+      "currentPrice": 700.00,
+      "priceChange": -10.00,
+      "priceChangePercent": -1.41,
+      "volume": 2000000,
+      "marketCap": 700000000000
+    }
+  ],
+  "bonds" : [
+    {
+      "id": "BOND1",
+      "companyId": "ABCD",
+      "faceValue": 1000,
+      "couponRate": 5.0,
+      "maturityDate": "2030-12-31",
+      "currentPrice": 1050.00,
+      "yieldToMaturity": 4.76
+    },
+    {
+      "id": "BOND2",
+      "companyId": "BCDE",
+      "faceValue": 1000,
+      "couponRate": 6.0,
+      "maturityDate": "2035-12-31",
+      "currentPrice": 1100.00,
+      "yieldToMaturity": 5.45
     }
   ]
 }
