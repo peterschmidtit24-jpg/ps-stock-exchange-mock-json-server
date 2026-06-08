@@ -5,11 +5,17 @@ try {
 }
 
 const jsonServer = require('json-server'); // import json-server to create a mock REST API (mock server)
+const path = require('path');
 
 const server = jsonServer.create(); // initialize the server instance
 
 const middlewares = jsonServer.defaults(); // apply json-server default middleware (logger, static, CORS, no-cache)
 server.use(middlewares);
+
+// __dirname gives the absolute path to the directory containing this server.js file, so we can serve static assets from there
+// e.g.  E:\Projects2025\Ironhack-Courses\ironhack\module3\p2-stock-exchange\mock-json-server
+// join add assets to it: E:\Projects2025\Ironhack-Courses\ironhack\module3\p2-stock-exchange\mock-json-server\assets
+server.use('/assets', jsonServer.defaults({ static: path.join(__dirname, 'assets') }));
 
 const router = jsonServer.router('db.json'); // create a router backed by db.json for automatic CRUD routes
 server.use(router);
@@ -35,3 +41,5 @@ server.listen(PORT, () => {
 // That updates the origin remote from the old boilerplate repo to your GitHub repo.
 // Then I pushed your existing commit with:
 // git push -u origin main
+
+// free icons from page https://uxwing.com/
