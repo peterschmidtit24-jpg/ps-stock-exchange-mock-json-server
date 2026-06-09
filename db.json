@@ -1,4 +1,3 @@
-
 {
   "companies": [
     {
@@ -19,7 +18,7 @@
     },
     {
       "id": "BCDE",
-      "name": "Tesla Inc.", 
+      "name": "Tesla Inc.",
       "image": "/assets/tesla-icon.svg",
       "branch": "Consumer Cyclical",
       "location": "USA",
@@ -30,22 +29,6 @@
       "analystRatings": {
         "buy": 15,
         "hold": 3,
-        "sell": 1
-      }
-    },
-    {
-      "id": "CDEF",
-      "name": "Microsoft Corporation",
-      "image": "/assets/windows-10-icon.svg",
-      "branch": "Technology",
-      "location": "USA",
-      "lastRevenue": 620000000,
-      "lastRevenueDate": "2024-05-31",
-      "lastEarnings": 145000000,
-      "lastEarningsDate": "2024-05-31",
-      "analystRatings": {
-        "buy": 18,
-        "hold": 4,
         "sell": 1
       }
     },
@@ -144,14 +127,46 @@
         "hold": 5,
         "sell": 3
       }
+    },
+    {
+      "id": "CDEF",
+      "name": "Microsoft Corporation",
+      "image": "/assets/windows-10-icon.svg",
+      "branch": "Technology",
+      "location": "USA",
+      "lastRevenue": 620000000,
+      "lastRevenueDate": "2024-05-31",
+      "lastEarnings": 145000000,
+      "lastEarningsDate": "2024-05-31",
+      "analystRatings": {
+        "buy": 18,
+        "hold": 4,
+        "sell": 1
+      }
+    },
+    {
+      "id": "M12D",
+      "name": "Fiction Corportion",
+      "image": "/assets/google-color-icon.svg",
+      "branch": "Unknown",
+      "location": "France",
+      "lastRevenue": 0,
+      "lastRevenueDate": "2026-06-01",
+      "lastEarnings": 0,
+      "lastEarningsDate": "2024-01-01",
+      "analystRatings": {
+        "buy": 3,
+        "hold": 0,
+        "sell": 0
+      }
     }
   ],
   "stocks": [
     {
       "id": "AAPL",
       "companyId": "ABCD",
-      "currentPrice": 150.00,
-      "priceChange": 2.50,
+      "currentPrice": 150,
+      "priceChange": 2.5,
       "priceChangePercent": 1.69,
       "volume": 1000000,
       "marketCap": 2500000000000
@@ -159,26 +174,17 @@
     {
       "id": "TSLA",
       "companyId": "BCDE",
-      "currentPrice": 700.00,
-      "priceChange": -10.00,
+      "currentPrice": 700,
+      "priceChange": -10,
       "priceChangePercent": -1.41,
       "volume": 2000000,
       "marketCap": 700000000000
     },
     {
-      "id": "MSFT",
-      "companyId": "CDEF",
-      "currentPrice": 425.50,
-      "priceChange": 3.25,
-      "priceChangePercent": 0.77,
-      "volume": 1500000,
-      "marketCap": 3150000000000
-    },
-    {
       "id": "AMZN",
       "companyId": "DEFG",
       "currentPrice": 185.75,
-      "priceChange": -1.80,
+      "priceChange": -1.8,
       "priceChangePercent": -0.96,
       "volume": 1800000,
       "marketCap": 1930000000000
@@ -186,8 +192,8 @@
     {
       "id": "NVDA",
       "companyId": "EFGH",
-      "currentPrice": 920.40,
-      "priceChange": 15.60,
+      "currentPrice": 920.4,
+      "priceChange": 15.6,
       "priceChangePercent": 1.72,
       "volume": 2200000,
       "marketCap": 2260000000000
@@ -195,7 +201,7 @@
     {
       "id": "GOOGL",
       "companyId": "FGHI",
-      "currentPrice": 168.30,
+      "currentPrice": 168.3,
       "priceChange": 1.15,
       "priceChangePercent": 0.69,
       "volume": 1300000,
@@ -204,8 +210,8 @@
     {
       "id": "TM",
       "companyId": "GHIJ",
-      "currentPrice": 205.40,
-      "priceChange": 1.90,
+      "currentPrice": 205.4,
+      "priceChange": 1.9,
       "priceChangePercent": 0.93,
       "volume": 900000,
       "marketCap": 275000000000
@@ -213,7 +219,7 @@
     {
       "id": "SAP",
       "companyId": "HIJK",
-      "currentPrice": 192.80,
+      "currentPrice": 192.8,
       "priceChange": -0.75,
       "priceChangePercent": -0.39,
       "volume": 650000,
@@ -223,29 +229,47 @@
       "id": "BABA",
       "companyId": "IJKL",
       "currentPrice": 84.25,
-      "priceChange": 2.10,
+      "priceChange": 2.1,
       "priceChangePercent": 2.56,
       "volume": 1750000,
       "marketCap": 204000000000
+    },
+    {
+      "id": "MSFT",
+      "companyId": "CDEF",
+      "currentPrice": 425.5,
+      "priceChange": 3.25,
+      "priceChangePercent": 0.77,
+      "volume": 1500000,
+      "marketCap": 3150000000000
+    },
+    {
+      "id": "ABCE",
+      "companyId": "M12D",
+      "currentPrice": 99.44,
+      "priceChange": 2.2,
+      "priceChangePercent": 0,
+      "volume": 0,
+      "marketCap": 0
     }
   ],
-  "bonds" : [
+  "bonds": [
     {
       "id": "BOND1",
       "companyId": "ABCD",
       "faceValue": 1000,
-      "couponRate": 5.0,
+      "couponRate": 5,
       "maturityDate": "2030-12-31",
-      "currentPrice": 1050.00,
+      "currentPrice": 1050,
       "yieldToMaturity": 4.76
     },
     {
       "id": "BOND2",
       "companyId": "BCDE",
       "faceValue": 1000,
-      "couponRate": 6.0,
+      "couponRate": 6,
       "maturityDate": "2035-12-31",
-      "currentPrice": 1100.00,
+      "currentPrice": 1100,
       "yieldToMaturity": 5.45
     },
     {
@@ -254,7 +278,7 @@
       "faceValue": 1000,
       "couponRate": 4.5,
       "maturityDate": "2032-12-31",
-      "currentPrice": 1025.00,
+      "currentPrice": 1025,
       "yieldToMaturity": 4.31
     },
     {
@@ -263,7 +287,7 @@
       "faceValue": 1000,
       "couponRate": 5.25,
       "maturityDate": "2034-12-31",
-      "currentPrice": 1010.00,
+      "currentPrice": 1010,
       "yieldToMaturity": 5.11
     },
     {
@@ -272,7 +296,7 @@
       "faceValue": 1000,
       "couponRate": 4.75,
       "maturityDate": "2031-12-31",
-      "currentPrice": 1085.00,
+      "currentPrice": 1085,
       "yieldToMaturity": 4.12
     },
     {
@@ -281,7 +305,7 @@
       "faceValue": 1000,
       "couponRate": 5.1,
       "maturityDate": "2033-12-31",
-      "currentPrice": 1040.00,
+      "currentPrice": 1040,
       "yieldToMaturity": 4.86
     },
     {
@@ -290,7 +314,7 @@
       "faceValue": 1000,
       "couponRate": 3.8,
       "maturityDate": "2031-12-31",
-      "currentPrice": 1015.00,
+      "currentPrice": 1015,
       "yieldToMaturity": 3.62
     },
     {
@@ -299,7 +323,7 @@
       "faceValue": 1000,
       "couponRate": 4.2,
       "maturityDate": "2032-12-31",
-      "currentPrice": 1030.00,
+      "currentPrice": 1030,
       "yieldToMaturity": 3.95
     },
     {
@@ -308,8 +332,37 @@
       "faceValue": 1000,
       "couponRate": 5.6,
       "maturityDate": "2034-12-31",
-      "currentPrice": 980.00,
+      "currentPrice": 980,
       "yieldToMaturity": 5.88
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN1",
+      "type": "buy",
+      "stockId": "AAPL",
+      "quantity": 10,
+      "pricePerShare": 150,
+      "totalAmount": 1500,
+      "date": "2024-06-01T10:00:00Z"
+    },
+    {
+      "id": "TXN2",
+      "type": "sell",
+      "stockId": "TSLA",
+      "quantity": 5,
+      "pricePerShare": 700,
+      "totalAmount": 3500,
+      "date": "2024-06-02T11:30:00Z"
+    },
+    {
+      "id": "TXN3",
+      "type": "buy",
+      "stockId": "MSFT",
+      "quantity": 8,
+      "pricePerShare": 425.5,
+      "totalAmount": 3404,
+      "date": "2024-06-03T14:45:00Z"
     }
   ]
 }

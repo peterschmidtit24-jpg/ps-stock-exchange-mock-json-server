@@ -4,6 +4,7 @@ dist-ssr
 *.local
 .env
 docs
+db.json.v*
 
 # Editor directories and files
 .vscode/*
