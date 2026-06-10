@@ -54,7 +54,7 @@
       "image": "/assets/nvidia-icon.svg",
       "branch": "Technology",
       "location": "USA",
-      "lastRevenue": 410000000,
+      "lastRevenue": 400000001,
       "lastRevenueDate": "2024-05-31",
       "lastEarnings": 120000000,
       "lastEarningsDate": "2024-05-31",
@@ -145,17 +145,17 @@
       }
     },
     {
-      "id": "M12D",
-      "name": "Fiction Corportion",
+      "id": "RTCD",
+      "name": "Fiction Corp",
       "image": "/assets/google-color-icon.svg",
       "branch": "Unknown",
-      "location": "France",
+      "location": "Unknown",
       "lastRevenue": 0,
-      "lastRevenueDate": "2026-06-01",
+      "lastRevenueDate": "2024-01-01",
       "lastEarnings": 0,
       "lastEarningsDate": "2024-01-01",
       "analystRatings": {
-        "buy": 3,
+        "buy": 4,
         "hold": 0,
         "sell": 0
       }
@@ -183,7 +183,7 @@
     {
       "id": "AMZN",
       "companyId": "DEFG",
-      "currentPrice": 185.75,
+      "currentPrice": 175.75,
       "priceChange": -1.8,
       "priceChangePercent": -0.96,
       "volume": 1800000,
@@ -244,10 +244,10 @@
       "marketCap": 3150000000000
     },
     {
-      "id": "ABCE",
-      "companyId": "M12D",
-      "currentPrice": 99.44,
-      "priceChange": 2.2,
+      "id": "ABCD",
+      "companyId": "RTCD",
+      "currentPrice": 22.33,
+      "priceChange": 0,
       "priceChangePercent": 0,
       "volume": 0,
       "marketCap": 0
