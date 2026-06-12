@@ -145,18 +145,1010 @@
       }
     },
     {
-      "id": "RTCD",
-      "name": "Fiction Corp",
+      "id": "ABDT",
+      "name": "Weyland-Yutani",
       "image": "/assets/google-color-icon.svg",
-      "branch": "Unknown",
-      "location": "Unknown",
+      "branch": "Spacetech",
+      "location": "Canada",
       "lastRevenue": 0,
-      "lastRevenueDate": "2024-01-01",
+      "lastRevenueDate": "2026-06-02",
       "lastEarnings": 0,
       "lastEarningsDate": "2024-01-01",
       "analystRatings": {
-        "buy": 4,
+        "buy": 0,
         "hold": 0,
+        "sell": 0
+      }
+    },
+    {
+      "id": "ADYE",
+      "name": "Adyen N.V.",
+      "image": "/assets/Ayden.png",
+      "branch": "Technology",
+      "location": "Netherlands",
+      "lastRevenue": 6240000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 936000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 5,
+        "sell": 1
+      }
+    },
+    {
+      "id": "ASME",
+      "name": "ASML Holding N.V.",
+      "image": "/assets/Asml.png",
+      "branch": "Technology",
+      "location": "Netherlands",
+      "lastRevenue": 34800000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 5220000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 8,
+        "sell": 1
+      }
+    },
+    {
+      "id": "TSMC",
+      "name": "Taiwan Semiconductor Manufacturing Company",
+      "image": "/assets/TSM.png",
+      "branch": "Semiconductors",
+      "location": "Taiwan",
+      "lastRevenue": 105000000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 15750000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 11,
+        "hold": 8,
+        "sell": 1
+      }
+    },
+    {
+      "id": "SONY",
+      "name": "Sony Group Corporation",
+      "image": "/assets/Sony.png",
+      "branch": "Consumer Electronics",
+      "location": "Japan",
+      "lastRevenue": 12720000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 1908000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 4,
+        "sell": 2
+      }
+    },
+    {
+      "id": "SSNL",
+      "name": "Samsung Electronics Co., Ltd.",
+      "image": "/assets/Samsung.png",
+      "branch": "Technology",
+      "location": "South Korea",
+      "lastRevenue": 43800000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 6570000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 8,
+        "sell": 2
+      }
+    },
+    {
+      "id": "TENC",
+      "name": "Tencent Holdings Limited",
+      "image": "/assets/TenCent.png",
+      "branch": "Communication Services",
+      "location": "China",
+      "lastRevenue": 54600000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 8190000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 11,
+        "hold": 6,
+        "sell": 2
+      }
+    },
+    {
+      "id": "SHOP",
+      "name": "Shopify Inc.",
+      "image": "/assets/Shopify.png",
+      "branch": "Technology",
+      "location": "Canada",
+      "lastRevenue": 9600000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 1440000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 3,
+        "sell": 3
+      }
+    },
+    {
+      "id": "SPOT",
+      "name": "Spotify Technology S.A.",
+      "image": "/assets/Spotify.png",
+      "branch": "Communication Services",
+      "location": "Sweden",
+      "lastRevenue": 7320000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 1098000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 5,
+        "sell": 3
+      }
+    },
+    {
+      "id": "MELI",
+      "name": "MercadoLibre, Inc.",
+      "image": "/assets/MELI.png",
+      "branch": "E-Commerce",
+      "location": "Argentina",
+      "lastRevenue": 9660000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 1449000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 13,
+        "hold": 6,
+        "sell": 0
+      }
+    },
+    {
+      "id": "SEAL",
+      "name": "Sea Limited",
+      "image": "/assets/SEA.png",
+      "branch": "Technology",
+      "location": "Singapore",
+      "lastRevenue": 4860000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 729000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 6,
+        "sell": 1
+      }
+    },
+    {
+      "id": "NESN",
+      "name": "Nestle S.A.",
+      "image": "/assets/NSRGY.png",
+      "branch": "Food & Beverage",
+      "location": "Switzerland",
+      "lastRevenue": 33000000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 4950000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 14,
+        "hold": 6,
+        "sell": 3
+      }
+    },
+    {
+      "id": "ULVR",
+      "name": "Unilever PLC",
+      "image": "/assets/Unilever.png",
+      "branch": "Consumer Staples",
+      "location": "United Kingdom",
+      "lastRevenue": 16800000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 2520000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 12,
+        "hold": 7,
+        "sell": 2
+      }
+    },
+    {
+      "id": "DANO",
+      "name": "Danone S.A.",
+      "image": "/assets/DANOY.png",
+      "branch": "Food & Beverage",
+      "location": "France",
+      "lastRevenue": 5340000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 801000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 13,
+        "hold": 8,
+        "sell": 2
+      }
+    },
+    {
+      "id": "BNDC",
+      "name": "Beyond Meat, Inc.",
+      "image": "/assets/BYND.png",
+      "branch": "Food Technology",
+      "location": "USA",
+      "lastRevenue": 60000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 9000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 11,
+        "hold": 3,
+        "sell": 0
+      }
+    },
+    {
+      "id": "KCOF",
+      "name": "Kerry Group plc",
+      "image": "/assets/KERRY.png",
+      "branch": "Food Ingredients",
+      "location": "Ireland",
+      "lastRevenue": 1800000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 270000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 11,
+        "hold": 4,
+        "sell": 3
+      }
+    },
+    {
+      "id": "KHCX",
+      "name": "The Kraft Heinz Company",
+      "image": "/assets/KHC.png",
+      "branch": "Food & Beverage",
+      "location": "USA",
+      "lastRevenue": 5160000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 774000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 11,
+        "hold": 3,
+        "sell": 3
+      }
+    },
+    {
+      "id": "DASH",
+      "name": "DoorDash, Inc.",
+      "image": "/assets/DASH.png",
+      "branch": "Food Delivery",
+      "location": "USA",
+      "lastRevenue": 5820000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 873000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 13,
+        "hold": 8,
+        "sell": 3
+      }
+    },
+    {
+      "id": "CPAL",
+      "name": "CP ALL Public Company Limited",
+      "image": "/assets/CP_ALL.png",
+      "branch": "Retail Food",
+      "location": "Thailand",
+      "lastRevenue": 2820000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 423000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 12,
+        "hold": 5,
+        "sell": 1
+      }
+    },
+    {
+      "id": "NOVN",
+      "name": "Novartis AG",
+      "image": "/assets/NVS.png",
+      "branch": "Healthcare",
+      "location": "Switzerland",
+      "lastRevenue": 24600000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 3690000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 14,
+        "hold": 4,
+        "sell": 2
+      }
+    },
+    {
+      "id": "ROCH",
+      "name": "Roche Holding AG",
+      "image": "/assets/RHHBY.png",
+      "branch": "Healthcare",
+      "location": "Switzerland",
+      "lastRevenue": 26400000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 3960000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 9,
+        "hold": 4,
+        "sell": 3
+      }
+    },
+    {
+      "id": "AZEN",
+      "name": "AstraZeneca PLC",
+      "image": "/assets/AZN.png",
+      "branch": "Healthcare",
+      "location": "United Kingdom",
+      "lastRevenue": 29040000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 4356000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 3,
+        "sell": 1
+      }
+    },
+    {
+      "id": "NORD",
+      "name": "Novo Nordisk A/S",
+      "image": "/assets/NVO.png",
+      "branch": "Healthcare",
+      "location": "Denmark",
+      "lastRevenue": 72600000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 10890000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 14,
+        "hold": 4,
+        "sell": 2
+      }
+    },
+    {
+      "id": "SNYX",
+      "name": "Sanofi S.A.",
+      "image": "/assets/SANOFI.png",
+      "branch": "Healthcare",
+      "location": "France",
+      "lastRevenue": 14880000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 2232000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 3,
+        "sell": 1
+      }
+    },
+    {
+      "id": "BAYN",
+      "name": "Bayer AG",
+      "image": "/assets/BAYRY.png",
+      "branch": "Healthcare",
+      "location": "Germany",
+      "lastRevenue": 3360000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 504000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 11,
+        "hold": 8,
+        "sell": 1
+      }
+    },
+    {
+      "id": "CSLX",
+      "name": "CSL Limited",
+      "image": "/assets/CSLLY.png",
+      "branch": "Biotechnology",
+      "location": "Australia",
+      "lastRevenue": 10680000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 1602000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 12,
+        "hold": 8,
+        "sell": 0
+      }
+    },
+    {
+      "id": "ALCN",
+      "name": "Alcon Inc.",
+      "image": "/assets/Alcon.png",
+      "branch": "Medical Devices",
+      "location": "Switzerland",
+      "lastRevenue": 5100000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 765000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 7,
+        "sell": 3
+      }
+    },
+    {
+      "id": "LMTD",
+      "name": "Lockheed Martin Corporation",
+      "image": "/assets/LMT.png",
+      "branch": "Defense",
+      "location": "USA",
+      "lastRevenue": 13320000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 1998000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 12,
+        "hold": 8,
+        "sell": 0
+      }
+    },
+    {
+      "id": "BAES",
+      "name": "BAE Systems plc",
+      "image": "/assets/BAESY.png",
+      "branch": "Defense",
+      "location": "United Kingdom",
+      "lastRevenue": 5040000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 756000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 11,
+        "hold": 8,
+        "sell": 1
+      }
+    },
+    {
+      "id": "THAL",
+      "name": "Thales S.A.",
+      "image": "/assets/THLLY.png",
+      "branch": "Defense",
+      "location": "France",
+      "lastRevenue": 3840000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 576000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 11,
+        "hold": 3,
+        "sell": 1
+      }
+    },
+    {
+      "id": "RHNM",
+      "name": "Rheinmetall AG",
+      "image": "/assets/RNMBY.png",
+      "branch": "Defense",
+      "location": "Germany",
+      "lastRevenue": 6360000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 954000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 9,
+        "hold": 3,
+        "sell": 2
+      }
+    },
+    {
+      "id": "SAAB",
+      "name": "Saab AB",
+      "image": "/assets/SAABY.png",
+      "branch": "Defense",
+      "location": "Sweden",
+      "lastRevenue": 2040000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 306000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 8,
+        "sell": 1
+      }
+    },
+    {
+      "id": "KTOS",
+      "name": "Kratos Defense & Security Solutions",
+      "image": "/assets/KTOS.png",
+      "branch": "Defense Technology",
+      "location": "USA",
+      "lastRevenue": 384000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 57600000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 11,
+        "hold": 3,
+        "sell": 3
+      }
+    },
+    {
+      "id": "AIRB",
+      "name": "Airbus SE",
+      "image": "/assets/EADSY.png",
+      "branch": "Aerospace",
+      "location": "Netherlands",
+      "lastRevenue": 16560000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 2484000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 4,
+        "sell": 2
+      }
+    },
+    {
+      "id": "BAOC",
+      "name": "Boeing Company",
+      "image": "/assets/BA.png",
+      "branch": "Aerospace",
+      "location": "USA",
+      "lastRevenue": 13560000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 2034000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 11,
+        "hold": 8,
+        "sell": 3
+      }
+    },
+    {
+      "id": "RKLB",
+      "name": "Rocket Lab USA, Inc.",
+      "image": "/assets/RKLB.png",
+      "branch": "Space Technology",
+      "location": "USA",
+      "lastRevenue": 348000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 52200000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 9,
+        "hold": 6,
+        "sell": 0
+      }
+    },
+    {
+      "id": "IRDM",
+      "name": "Iridium Communications Inc.",
+      "image": "/assets/IRDIB.png",
+      "branch": "Satellite Communications",
+      "location": "USA",
+      "lastRevenue": 420000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 63000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 9,
+        "hold": 7,
+        "sell": 0
+      }
+    },
+    {
+      "id": "SATS",
+      "name": "EchoStar Corporation",
+      "image": "/assets/SATS.png",
+      "branch": "Satellite Communications",
+      "location": "USA",
+      "lastRevenue": 300000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 45000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 8,
+        "sell": 0
+      }
+    },
+    {
+      "id": "SPCE",
+      "name": "Virgin Galactic Holdings, Inc.",
+      "image": "/assets/SPCE.png",
+      "branch": "Space Tourism",
+      "location": "USA",
+      "lastRevenue": 93600000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 14040000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 5,
+        "sell": 3
+      }
+    },
+    {
+      "id": "OHBX",
+      "name": "OHB SE",
+      "image": "/assets/OHB.png",
+      "branch": "Space Technology",
+      "location": "Germany",
+      "lastRevenue": 93600000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 14040000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 15,
+        "hold": 3,
+        "sell": 2
+      }
+    },
+    {
+      "id": "GDYN",
+      "name": "General Dynamics Corporation",
+      "image": "/assets/GD.png",
+      "branch": "Aerospace & Defense",
+      "location": "USA",
+      "lastRevenue": 9600000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 1440000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 16,
+        "hold": 5,
+        "sell": 1
+      }
+    },
+    {
+      "id": "SHEL",
+      "name": "Shell plc",
+      "image": "/assets/SHEL.png",
+      "branch": "Energy",
+      "location": "United Kingdom",
+      "lastRevenue": 26400000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 3960000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 3,
+        "sell": 1
+      }
+    },
+    {
+      "id": "TTEF",
+      "name": "TotalEnergies SE",
+      "image": "/assets/TTE.png",
+      "branch": "Energy",
+      "location": "France",
+      "lastRevenue": 19200000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 2880000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 11,
+        "hold": 3,
+        "sell": 1
+      }
+    },
+    {
+      "id": "EQNR",
+      "name": "Equinor ASA",
+      "image": "/assets/EQNR.png",
+      "branch": "Energy",
+      "location": "Norway",
+      "lastRevenue": 9600000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 1440000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 14,
+        "hold": 6,
+        "sell": 2
+      }
+    },
+    {
+      "id": "ENEL",
+      "name": "Enel S.p.A.",
+      "image": "/assets/ENLAY.png",
+      "branch": "Utilities",
+      "location": "Italy",
+      "lastRevenue": 8820000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 1323000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 14,
+        "hold": 3,
+        "sell": 1
+      }
+    },
+    {
+      "id": "ORST",
+      "name": "Orsted A/S",
+      "image": "/assets/DNNGY.png",
+      "branch": "Renewable Energy",
+      "location": "Denmark",
+      "lastRevenue": 2160000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 324000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 15,
+        "hold": 7,
+        "sell": 3
+      }
+    },
+    {
+      "id": "NEEE",
+      "name": "NextEra Energy, Inc.",
+      "image": "/assets/NEE.png",
+      "branch": "Renewable Utilities",
+      "location": "USA",
+      "lastRevenue": 17880000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 2682000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 14,
+        "hold": 6,
+        "sell": 1
+      }
+    },
+    {
+      "id": "RIOX",
+      "name": "Rio Tinto Group",
+      "image": "/assets/RIO.png",
+      "branch": "Mining",
+      "location": "United Kingdom",
+      "lastRevenue": 12960000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 1944000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 9,
+        "hold": 4,
+        "sell": 3
+      }
+    },
+    {
+      "id": "BHPX",
+      "name": "BHP Group Limited",
+      "image": "/assets/BHP.png",
+      "branch": "Mining",
+      "location": "Australia",
+      "lastRevenue": 17760000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 2664000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 11,
+        "hold": 3,
+        "sell": 0
+      }
+    },
+    {
+      "id": "VALE",
+      "name": "Vale S.A.",
+      "image": "/assets/VALE.png",
+      "branch": "Mining",
+      "location": "Brazil",
+      "lastRevenue": 6480000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 972000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 13,
+        "hold": 8,
+        "sell": 0
+      }
+    },
+    {
+      "id": "SIEG",
+      "name": "Siemens AG",
+      "image": "/assets/SIEGY.png",
+      "branch": "Industrial Technology",
+      "location": "Germany",
+      "lastRevenue": 17400000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 2610000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 4,
+        "sell": 1
+      }
+    },
+    {
+      "id": "SCHN",
+      "name": "Schneider Electric SE",
+      "image": "/assets/SBGSY.png",
+      "branch": "Industrial Technology",
+      "location": "France",
+      "lastRevenue": 16800000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 2520000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 4,
+        "sell": 0
+      }
+    },
+    {
+      "id": "HONX",
+      "name": "Hon Hai Precision Industry Co., Ltd.",
+      "image": "/assets/HNHPF.png",
+      "branch": "Electronics Manufacturing",
+      "location": "Taiwan",
+      "lastRevenue": 11520000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 1728000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 8,
+        "hold": 4,
+        "sell": 2
+      }
+    },
+    {
+      "id": "MAER",
+      "name": "A.P. Moller - Maersk A/S",
+      "image": "/assets/AMKBY.png",
+      "branch": "Shipping",
+      "location": "Denmark",
+      "lastRevenue": 2940000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 441000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 13,
+        "hold": 8,
+        "sell": 1
+      }
+    },
+    {
+      "id": "DPWO",
+      "name": "Deutsche Post AG",
+      "image": "/assets/DHLGY.png",
+      "branch": "Logistics",
+      "location": "Germany",
+      "lastRevenue": 6180000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 927000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 13,
+        "hold": 5,
+        "sell": 3
+      }
+    },
+    {
+      "id": "RYAI",
+      "name": "Ryanair Holdings plc",
+      "image": "/assets/RYAAY.png",
+      "branch": "Airlines",
+      "location": "Ireland",
+      "lastRevenue": 3480000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 522000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 9,
+        "hold": 8,
+        "sell": 1
+      }
+    },
+    {
+      "id": "HSBA",
+      "name": "HSBC Holdings plc",
+      "image": "/assets/HSBC.png",
+      "branch": "Banking",
+      "location": "United Kingdom",
+      "lastRevenue": 19200000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 2880000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 8,
+        "hold": 8,
+        "sell": 2
+      }
+    },
+    {
+      "id": "SANB",
+      "name": "Banco Santander, S.A.",
+      "image": "/assets/SAN.png",
+      "branch": "Banking",
+      "location": "Spain",
+      "lastRevenue": 9120000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 1368000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 8,
+        "sell": 2
+      }
+    },
+    {
+      "id": "DBKG",
+      "name": "Deutsche Bank AG",
+      "image": "/assets/DB.png",
+      "branch": "Banking",
+      "location": "Germany",
+      "lastRevenue": 4080000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 612000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 13,
+        "hold": 3,
+        "sell": 3
+      }
+    },
+    {
+      "id": "ADYC",
+      "name": "AIA Group Limited",
+      "image": "/assets/AAGIY.png",
+      "branch": "Insurance",
+      "location": "Hong Kong",
+      "lastRevenue": 10080000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 1512000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 10,
+        "hold": 5,
+        "sell": 1
+      }
+    },
+    {
+      "id": "LVMH",
+      "name": "LVMH Moet Hennessy Louis Vuitton",
+      "image": "/assets/LVMUY.png",
+      "branch": "Luxury Goods",
+      "location": "France",
+      "lastRevenue": 47400000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 7110000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 12,
+        "hold": 5,
+        "sell": 1
+      }
+    },
+    {
+      "id": "NIKS",
+      "name": "Nike, Inc.",
+      "image": "/assets/NKE.png",
+      "branch": "Consumer Goods",
+      "location": "USA",
+      "lastRevenue": 17040000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 2556000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 14,
+        "hold": 4,
+        "sell": 3
+      }
+    },
+    {
+      "id": "INDT",
+      "name": "Inditex S.A.",
+      "image": "/assets/IDEXY.png",
+      "branch": "Retail Apparel",
+      "location": "Spain",
+      "lastRevenue": 21240000000,
+      "lastRevenueDate": "2024-12-31",
+      "lastEarnings": 3186000000,
+      "lastEarningsDate": "2024-12-31",
+      "analystRatings": {
+        "buy": 9,
+        "hold": 3,
         "sell": 0
       }
     }
@@ -165,92 +1157,650 @@
     {
       "id": "AAPL",
       "companyId": "ABCD",
-      "currentPrice": 186.04,
-      "priceChange": 7.22,
-      "priceChangePercent": 4.04,
+      "currentPrice": 257.53,
+      "priceChange": 5.94,
+      "priceChangePercent": 2.36,
       "volume": 1000000,
       "marketCap": 2500000000000
     },
     {
       "id": "TSLA",
       "companyId": "BCDE",
-      "currentPrice": 873.95,
-      "priceChange": -4.25,
-      "priceChangePercent": -0.48,
+      "currentPrice": 771.27,
+      "priceChange": -21.71,
+      "priceChangePercent": -2.74,
       "volume": 2000000,
       "marketCap": 700000000000
     },
     {
       "id": "AMZN",
       "companyId": "DEFG",
-      "currentPrice": 163.12,
-      "priceChange": 0,
-      "priceChangePercent": 0,
+      "currentPrice": 81.19,
+      "priceChange": -3.88,
+      "priceChangePercent": -4.56,
       "volume": 1800000,
       "marketCap": 1930000000000
     },
     {
       "id": "NVDA",
       "companyId": "EFGH",
-      "currentPrice": 537.05,
-      "priceChange": -21.84,
-      "priceChangePercent": -3.91,
+      "currentPrice": 488.02,
+      "priceChange": -6.97,
+      "priceChangePercent": -1.41,
       "volume": 2200000,
       "marketCap": 2260000000000
     },
     {
       "id": "GOOGL",
       "companyId": "FGHI",
-      "currentPrice": 93.98,
-      "priceChange": 1.62,
-      "priceChangePercent": 1.75,
+      "currentPrice": 49.49,
+      "priceChange": -2.16,
+      "priceChangePercent": -4.18,
       "volume": 1300000,
       "marketCap": 2080000000000
     },
     {
       "id": "TM",
       "companyId": "GHIJ",
-      "currentPrice": 169.23,
-      "priceChange": -8.12,
-      "priceChangePercent": -4.58,
+      "currentPrice": 155.92,
+      "priceChange": 0,
+      "priceChangePercent": 0,
       "volume": 900000,
       "marketCap": 275000000000
     },
     {
       "id": "SAP",
       "companyId": "HIJK",
-      "currentPrice": 188.8,
-      "priceChange": 7.82,
-      "priceChangePercent": 4.32,
+      "currentPrice": 99.02,
+      "priceChange": -1.69,
+      "priceChangePercent": -1.68,
       "volume": 650000,
       "marketCap": 232000000000
     },
     {
       "id": "BABA",
       "companyId": "IJKL",
-      "currentPrice": 78.73,
-      "priceChange": 3.05,
-      "priceChangePercent": 4.03,
+      "currentPrice": 59.98,
+      "priceChange": 2.09,
+      "priceChangePercent": 3.61,
       "volume": 1750000,
       "marketCap": 204000000000
     },
     {
       "id": "MSFT",
       "companyId": "CDEF",
-      "currentPrice": 296.59,
-      "priceChange": -9.52,
-      "priceChangePercent": -3.11,
+      "currentPrice": 86.79,
+      "priceChange": -3.62,
+      "priceChangePercent": -4,
       "volume": 1500000,
       "marketCap": 3150000000000
     },
     {
-      "id": "ABCD",
-      "companyId": "RTCD",
-      "currentPrice": 18.57,
-      "priceChange": 0.74,
-      "priceChangePercent": 4.15,
+      "id": "SDFT",
+      "companyId": "ABDT",
+      "currentPrice": 27.62,
+      "priceChange": 0.31,
+      "priceChangePercent": 1.14,
       "volume": 0,
       "marketCap": 0
+    },
+    {
+      "id": "ADYEN",
+      "companyId": "ADYE",
+      "currentPrice": 52.4,
+      "priceChange": 1.12,
+      "priceChangePercent": 2.18,
+      "volume": 520000,
+      "marketCap": 52000000000
+    },
+    {
+      "id": "ASML",
+      "companyId": "ASME",
+      "currentPrice": 742.15,
+      "priceChange": -8.45,
+      "priceChangePercent": -1.13,
+      "volume": 810000,
+      "marketCap": 290000000000
+    },
+    {
+      "id": "TSM",
+      "companyId": "TSMC",
+      "currentPrice": 168.9,
+      "priceChange": 3.25,
+      "priceChangePercent": 1.96,
+      "volume": 3200000,
+      "marketCap": 875000000000
+    },
+    {
+      "id": "SONY",
+      "companyId": "SONY",
+      "currentPrice": 85.7,
+      "priceChange": -1.08,
+      "priceChangePercent": -1.24,
+      "volume": 1200000,
+      "marketCap": 106000000000
+    },
+    {
+      "id": "SSNLF",
+      "companyId": "SSNL",
+      "currentPrice": 57.8,
+      "priceChange": 0.65,
+      "priceChangePercent": 1.14,
+      "volume": 980000,
+      "marketCap": 365000000000
+    },
+    {
+      "id": "TCEHY",
+      "companyId": "TENC",
+      "currentPrice": 48.35,
+      "priceChange": 0.91,
+      "priceChangePercent": 1.92,
+      "volume": 2100000,
+      "marketCap": 455000000000
+    },
+    {
+      "id": "SHOP",
+      "companyId": "SHOP",
+      "currentPrice": 62.15,
+      "priceChange": -0.74,
+      "priceChangePercent": -1.18,
+      "volume": 1700000,
+      "marketCap": 80000000000
+    },
+    {
+      "id": "SPOT",
+      "companyId": "SPOT",
+      "currentPrice": 302.2,
+      "priceChange": 5.46,
+      "priceChangePercent": 1.84,
+      "volume": 760000,
+      "marketCap": 61000000000
+    },
+    {
+      "id": "MELI",
+      "companyId": "MELI",
+      "currentPrice": 1585.5,
+      "priceChange": 22.4,
+      "priceChangePercent": 1.43,
+      "volume": 410000,
+      "marketCap": 80500000000
+    },
+    {
+      "id": "SE",
+      "companyId": "SEAL",
+      "currentPrice": 71.25,
+      "priceChange": -2.15,
+      "priceChangePercent": -2.93,
+      "volume": 1500000,
+      "marketCap": 40500000000
+    },
+    {
+      "id": "NSRGY",
+      "companyId": "NESN",
+      "currentPrice": 104.9,
+      "priceChange": 0.42,
+      "priceChangePercent": 0.4,
+      "volume": 900000,
+      "marketCap": 275000000000
+    },
+    {
+      "id": "UL",
+      "companyId": "ULVR",
+      "currentPrice": 56.35,
+      "priceChange": -0.2,
+      "priceChangePercent": -0.35,
+      "volume": 1300000,
+      "marketCap": 140000000000
+    },
+    {
+      "id": "DANOY",
+      "companyId": "DANO",
+      "currentPrice": 13.9,
+      "priceChange": 0.08,
+      "priceChangePercent": 0.58,
+      "volume": 360000,
+      "marketCap": 44500000000
+    },
+    {
+      "id": "BYND",
+      "companyId": "BNDC",
+      "currentPrice": 7.65,
+      "priceChange": -0.31,
+      "priceChangePercent": -3.89,
+      "volume": 1900000,
+      "marketCap": 500000000
+    },
+    {
+      "id": "KRYAY",
+      "companyId": "KCOF",
+      "currentPrice": 88.2,
+      "priceChange": 1.05,
+      "priceChangePercent": 1.2,
+      "volume": 180000,
+      "marketCap": 15000000000
+    },
+    {
+      "id": "KHC",
+      "companyId": "KHCX",
+      "currentPrice": 35.1,
+      "priceChange": 0.22,
+      "priceChangePercent": 0.63,
+      "volume": 2500000,
+      "marketCap": 43000000000
+    },
+    {
+      "id": "DASH",
+      "companyId": "DASH",
+      "currentPrice": 119.45,
+      "priceChange": -1.8,
+      "priceChangePercent": -1.48,
+      "volume": 2100000,
+      "marketCap": 48500000000
+    },
+    {
+      "id": "CPPCY",
+      "companyId": "CPAL",
+      "currentPrice": 10.45,
+      "priceChange": 0.18,
+      "priceChangePercent": 1.75,
+      "volume": 300000,
+      "marketCap": 23500000000
+    },
+    {
+      "id": "NVS",
+      "companyId": "NOVN",
+      "currentPrice": 98.8,
+      "priceChange": 1.11,
+      "priceChangePercent": 1.14,
+      "volume": 1400000,
+      "marketCap": 205000000000
+    },
+    {
+      "id": "RHHBY",
+      "companyId": "ROCH",
+      "currentPrice": 35.55,
+      "priceChange": -0.41,
+      "priceChangePercent": -1.14,
+      "volume": 1600000,
+      "marketCap": 220000000000
+    },
+    {
+      "id": "AZN",
+      "companyId": "AZEN",
+      "currentPrice": 78.3,
+      "priceChange": 0.74,
+      "priceChangePercent": 0.95,
+      "volume": 2300000,
+      "marketCap": 242000000000
+    },
+    {
+      "id": "NVO",
+      "companyId": "NORD",
+      "currentPrice": 134.1,
+      "priceChange": 2.92,
+      "priceChangePercent": 2.23,
+      "volume": 3500000,
+      "marketCap": 605000000000
+    },
+    {
+      "id": "SNY",
+      "companyId": "SNYX",
+      "currentPrice": 49.25,
+      "priceChange": -0.35,
+      "priceChangePercent": -0.71,
+      "volume": 920000,
+      "marketCap": 124000000000
+    },
+    {
+      "id": "BAYRY",
+      "companyId": "BAYN",
+      "currentPrice": 7.15,
+      "priceChange": 0.05,
+      "priceChangePercent": 0.7,
+      "volume": 1100000,
+      "marketCap": 28000000000
+    },
+    {
+      "id": "CSLLY",
+      "companyId": "CSLX",
+      "currentPrice": 92.4,
+      "priceChange": 1.76,
+      "priceChangePercent": 1.94,
+      "volume": 240000,
+      "marketCap": 89000000000
+    },
+    {
+      "id": "ALC",
+      "companyId": "ALCN",
+      "currentPrice": 85.6,
+      "priceChange": -0.63,
+      "priceChangePercent": -0.73,
+      "volume": 700000,
+      "marketCap": 42500000000
+    },
+    {
+      "id": "LMT",
+      "companyId": "LMTD",
+      "currentPrice": 462.5,
+      "priceChange": 4.8,
+      "priceChangePercent": 1.05,
+      "volume": 950000,
+      "marketCap": 111000000000
+    },
+    {
+      "id": "BAESY",
+      "companyId": "BAES",
+      "currentPrice": 68.75,
+      "priceChange": 0.95,
+      "priceChangePercent": 1.4,
+      "volume": 620000,
+      "marketCap": 42000000000
+    },
+    {
+      "id": "THLLY",
+      "companyId": "THAL",
+      "currentPrice": 31.4,
+      "priceChange": -0.22,
+      "priceChangePercent": -0.7,
+      "volume": 190000,
+      "marketCap": 32000000000
+    },
+    {
+      "id": "RNMBY",
+      "companyId": "RHNM",
+      "currentPrice": 121.8,
+      "priceChange": 3.5,
+      "priceChangePercent": 2.96,
+      "volume": 430000,
+      "marketCap": 53000000000
+    },
+    {
+      "id": "SAABY",
+      "companyId": "SAAB",
+      "currentPrice": 31.2,
+      "priceChange": 0.71,
+      "priceChangePercent": 2.33,
+      "volume": 180000,
+      "marketCap": 17000000000
+    },
+    {
+      "id": "KTOS",
+      "companyId": "KTOS",
+      "currentPrice": 21.7,
+      "priceChange": -0.18,
+      "priceChangePercent": -0.82,
+      "volume": 900000,
+      "marketCap": 3200000000
+    },
+    {
+      "id": "EADSY",
+      "companyId": "AIRB",
+      "currentPrice": 45.8,
+      "priceChange": 0.64,
+      "priceChangePercent": 1.42,
+      "volume": 820000,
+      "marketCap": 138000000000
+    },
+    {
+      "id": "BA",
+      "companyId": "BAOC",
+      "currentPrice": 185.25,
+      "priceChange": -2.1,
+      "priceChangePercent": -1.12,
+      "volume": 5100000,
+      "marketCap": 113000000000
+    },
+    {
+      "id": "RKLB",
+      "companyId": "RKLB",
+      "currentPrice": 5.85,
+      "priceChange": 0.19,
+      "priceChangePercent": 3.36,
+      "volume": 6400000,
+      "marketCap": 2900000000
+    },
+    {
+      "id": "IRDM",
+      "companyId": "IRDM",
+      "currentPrice": 28.75,
+      "priceChange": -0.52,
+      "priceChangePercent": -1.78,
+      "volume": 850000,
+      "marketCap": 3500000000
+    },
+    {
+      "id": "SATS",
+      "companyId": "SATS",
+      "currentPrice": 18.3,
+      "priceChange": 0.24,
+      "priceChangePercent": 1.33,
+      "volume": 620000,
+      "marketCap": 2500000000
+    },
+    {
+      "id": "SPCE",
+      "companyId": "SPCE",
+      "currentPrice": 1.9,
+      "priceChange": -0.07,
+      "priceChangePercent": -3.55,
+      "volume": 7800000,
+      "marketCap": 780000000
+    },
+    {
+      "id": "OHB",
+      "companyId": "OHBX",
+      "currentPrice": 44.5,
+      "priceChange": 0.3,
+      "priceChangePercent": 0.68,
+      "volume": 35000,
+      "marketCap": 780000000
+    },
+    {
+      "id": "GD",
+      "companyId": "GDYN",
+      "currentPrice": 292.1,
+      "priceChange": 1.88,
+      "priceChangePercent": 0.65,
+      "volume": 900000,
+      "marketCap": 80000000000
+    },
+    {
+      "id": "SHEL",
+      "companyId": "SHEL",
+      "currentPrice": 70.25,
+      "priceChange": 0.52,
+      "priceChangePercent": 0.75,
+      "volume": 4000000,
+      "marketCap": 220000000000
+    },
+    {
+      "id": "TTE",
+      "companyId": "TTEF",
+      "currentPrice": 67.9,
+      "priceChange": -0.34,
+      "priceChangePercent": -0.5,
+      "volume": 1800000,
+      "marketCap": 160000000000
+    },
+    {
+      "id": "EQNR",
+      "companyId": "EQNR",
+      "currentPrice": 28.65,
+      "priceChange": 0.25,
+      "priceChangePercent": 0.88,
+      "volume": 2100000,
+      "marketCap": 80000000000
+    },
+    {
+      "id": "ENLAY",
+      "companyId": "ENEL",
+      "currentPrice": 7.25,
+      "priceChange": 0.06,
+      "priceChangePercent": 0.83,
+      "volume": 950000,
+      "marketCap": 73500000000
+    },
+    {
+      "id": "DNNGY",
+      "companyId": "ORST",
+      "currentPrice": 15.8,
+      "priceChange": -0.45,
+      "priceChangePercent": -2.77,
+      "volume": 540000,
+      "marketCap": 18000000000
+    },
+    {
+      "id": "NEE",
+      "companyId": "NEEE",
+      "currentPrice": 72.4,
+      "priceChange": 0.95,
+      "priceChangePercent": 1.33,
+      "volume": 6100000,
+      "marketCap": 149000000000
+    },
+    {
+      "id": "RIO",
+      "companyId": "RIOX",
+      "currentPrice": 66.85,
+      "priceChange": -0.72,
+      "priceChangePercent": -1.07,
+      "volume": 2500000,
+      "marketCap": 108000000000
+    },
+    {
+      "id": "BHP",
+      "companyId": "BHPX",
+      "currentPrice": 58.2,
+      "priceChange": 0.44,
+      "priceChangePercent": 0.76,
+      "volume": 2300000,
+      "marketCap": 148000000000
+    },
+    {
+      "id": "VALE",
+      "companyId": "VALE",
+      "currentPrice": 11.95,
+      "priceChange": -0.12,
+      "priceChangePercent": -0.99,
+      "volume": 18500000,
+      "marketCap": 54000000000
+    },
+    {
+      "id": "SIEGY",
+      "companyId": "SIEG",
+      "currentPrice": 91.7,
+      "priceChange": 1.35,
+      "priceChangePercent": 1.49,
+      "volume": 460000,
+      "marketCap": 145000000000
+    },
+    {
+      "id": "SBGSY",
+      "companyId": "SCHN",
+      "currentPrice": 49.6,
+      "priceChange": 0.62,
+      "priceChangePercent": 1.27,
+      "volume": 650000,
+      "marketCap": 140000000000
+    },
+    {
+      "id": "HNHPF",
+      "companyId": "HONX",
+      "currentPrice": 6.85,
+      "priceChange": 0.09,
+      "priceChangePercent": 1.33,
+      "volume": 1200000,
+      "marketCap": 96000000000
+    },
+    {
+      "id": "AMKBY",
+      "companyId": "MAER",
+      "currentPrice": 8.95,
+      "priceChange": -0.16,
+      "priceChangePercent": -1.76,
+      "volume": 260000,
+      "marketCap": 24500000000
+    },
+    {
+      "id": "DHLGY",
+      "companyId": "DPWO",
+      "currentPrice": 42.1,
+      "priceChange": 0.18,
+      "priceChangePercent": 0.43,
+      "volume": 720000,
+      "marketCap": 51500000000
+    },
+    {
+      "id": "RYAAY",
+      "companyId": "RYAI",
+      "currentPrice": 129.6,
+      "priceChange": 1.75,
+      "priceChangePercent": 1.37,
+      "volume": 330000,
+      "marketCap": 29000000000
+    },
+    {
+      "id": "HSBC",
+      "companyId": "HSBA",
+      "currentPrice": 43.25,
+      "priceChange": 0.3,
+      "priceChangePercent": 0.7,
+      "volume": 2600000,
+      "marketCap": 160000000000
+    },
+    {
+      "id": "SAN",
+      "companyId": "SANB",
+      "currentPrice": 4.95,
+      "priceChange": -0.05,
+      "priceChangePercent": -1,
+      "volume": 7600000,
+      "marketCap": 76000000000
+    },
+    {
+      "id": "DB",
+      "companyId": "DBKG",
+      "currentPrice": 16.8,
+      "priceChange": 0.21,
+      "priceChangePercent": 1.27,
+      "volume": 3900000,
+      "marketCap": 34000000000
+    },
+    {
+      "id": "AAGIY",
+      "companyId": "ADYC",
+      "currentPrice": 29.4,
+      "priceChange": -0.28,
+      "priceChangePercent": -0.94,
+      "volume": 700000,
+      "marketCap": 84000000000
+    },
+    {
+      "id": "LVMUY",
+      "companyId": "LVMH",
+      "currentPrice": 157.25,
+      "priceChange": 2.15,
+      "priceChangePercent": 1.39,
+      "volume": 420000,
+      "marketCap": 395000000000
+    },
+    {
+      "id": "NKE",
+      "companyId": "NIKS",
+      "currentPrice": 94.35,
+      "priceChange": -1.12,
+      "priceChangePercent": -1.17,
+      "volume": 3800000,
+      "marketCap": 142000000000
+    },
+    {
+      "id": "IDEXY",
+      "companyId": "INDT",
+      "currentPrice": 28.8,
+      "priceChange": 0.46,
+      "priceChangePercent": 1.62,
+      "volume": 510000,
+      "marketCap": 177000000000
     }
   ],
   "bonds": [
